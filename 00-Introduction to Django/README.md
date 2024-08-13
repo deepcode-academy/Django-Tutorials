@@ -1,3 +1,5 @@
+# 🌐 Django Web Framework Asoslari
+
 # Introduction to Django
 
 # 🔰Django Nima?
