@@ -1,2 +1,1 @@
-# Django-Tutorials
-Django Web Framework
+# Django Web Framework asoslari
