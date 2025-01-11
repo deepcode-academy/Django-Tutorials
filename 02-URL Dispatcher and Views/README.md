@@ -1,5 +1,3 @@
-# 🌐 Django Web Framework Asoslari
-
 # URL Dispatcher and Views
 
 
