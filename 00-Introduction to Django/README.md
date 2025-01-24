@@ -36,3 +36,50 @@ Django **MVC (Model-View-Controller)** yoki **MTV (Model-Template-View)** arxite
 
 ## Django Loyihasining Tuzilishi
 
+```shell
+loyiha_nomi/
+├── manage.py
+├── loyiha_nomi/
+│   ├── __init__.py
+│   ├── settings.py   # Loyihaning sozlamalari
+│   ├── urls.py       # URL manzillarni boshqarish
+│   ├── asgi.py
+│   └── wsgi.py
+└── ilova_nomi/
+    ├── migrations/   # Ma'lumotlar bazasi migratsiyalari
+    ├── __init__.py
+    ├── admin.py      # Admin panel sozlamalari
+    ├── apps.py       # Ilova sozlamalari
+    ├── models.py     # Ma'lumotlar bazasi modellari
+    ├── tests.py      # Test funksiyalar
+    └── views.py      # Foydalanuvchi so‘rovlariga javob
+```
+
+## Django Loyihasini O‘rnatish
+
+1. Django'ni o‘rnatish uchun quyidagi buyruqni ishlating:
+
+```shell
+pip install django
+```
+
+2. Yangi loyiha yaratish:
+
+```shell
+django-admin startproject loyiha_nomi
+cd loyiha_nomi
+```
+
+3. Yangi ilova (app) yaratish:
+
+```shell
+python manage.py startapp ilova_nomi
+```
+
+4. Serverni ishga tushirish:
+
+```shell
+python manage.py runserver
+```
+
+5. Brauzerda oching: http://127.0.0.1:8000/.
