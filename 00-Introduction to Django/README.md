@@ -28,6 +28,11 @@
 
 Django **MVC (Model-View-Controller)** yoki **MTV (Model-Template-View)** arxitekturasiga asoslangan:
 
-1. `Model`: Ma'lumotlar bazasi bilan ishlovchi qism. Model orqali ma'lumotlar strukturalari yaratiladi.
-2. `Template`: Foydalanuvchi interfeysi uchun **HTML/CSS** kodlarni o‘z ichiga oladi.
-3. `View`: Biznes logikasini ta'minlaydi va foydalanuvchi so‘rovlariga javob qaytaradi.
+![img.png](img.png)
+
+1. **Model**: Ma'lumotlar bazasi bilan ishlovchi qism. Model orqali ma'lumotlar strukturalari yaratiladi.
+2. **Template**: Foydalanuvchi interfeysi uchun `HTML/CSS` kodlarni o‘z ichiga oladi.
+3. **View**: Biznes logikasini ta'minlaydi va foydalanuvchi so‘rovlariga javob qaytaradi.
+
+## Django Loyihasining Tuzilishi
+
