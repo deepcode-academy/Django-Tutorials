@@ -83,3 +83,50 @@ python manage.py runserver
 ```
 
 5. Brauzerda oching: http://127.0.0.1:8000/.
+
+## Djangodagi Asosiy Tushunchalar
+
+1. Model: Django modeli ma'lumotlar bazasi bilan ishlashni osonlashtiradi. Har bir model – bu ma'lumotlar bazasidagi bir jadvalga mos keladi.
+
+```python
+from django.db import models
+
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+    available = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.name
+```
+
+2. Admin panel: Django avtomatik ravishda ma'lumotlar bazasidagi ma'lumotlarni boshqarish uchun admin panel yaratadi.
+
+```python
+from django.contrib import admin
+from .models import Product
+
+admin.site.register(Product)
+```
+
+3. View: View foydalanuvchining so‘rovlariga javob beradi.
+
+```python
+from django.http import HttpResponse
+
+def greet(request):
+    return HttpResponse("Hello, Django!")
+```
+
+4. URL Manzillar: Har bir view URL bilan bog‘lanadi.
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('hello/', views.greet, name='greet'),
+]
+```
+
+5. Template: HTML hujjatlarni ishlatish uchun Templates papkasida fayllar saqlanadi.
