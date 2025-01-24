@@ -130,3 +130,10 @@ urlpatterns = [
 ```
 
 5. Template: HTML hujjatlarni ishlatish uchun Templates papkasida fayllar saqlanadi.
+
+
+# PRACTICS
+
+- Django loyihasini yaratish: `django-admin startproject ecommerce`
+- Django serverini ishga tushirish
+- Ilova yaratish: `python manage.py startapp store`
