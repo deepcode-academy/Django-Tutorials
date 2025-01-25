@@ -86,6 +86,35 @@ python manage.py runserver
 
 ## Djangodagi Asosiy Tushunchalar
 
+- INSTALLED_APPS
+
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'base',  # Bu siz yaratgan ilova
+]
+```
+
+- urls
+
+Loyiha va ilovalar uchun `URL`larni sozlash uchun `urls.py` fayliga o'zgartirish kiritish kerak.
+
+```python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('base.urls')),  # 'myapp' ilovasining URL'larini qo‘shish
+]
+```
+
+
 1. Model: Django modeli ma'lumotlar bazasi bilan ishlashni osonlashtiradi. Har bir model – bu ma'lumotlar bazasidagi bir jadvalga mos keladi.
 
 ```python
