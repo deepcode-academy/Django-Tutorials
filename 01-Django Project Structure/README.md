@@ -150,3 +150,15 @@ from .models import UserProfile
 admin.site.register(UserProfile)
 ```
 
+`migrations/`
+- Ma'lumotlar bazasi o'zgarishlarini saqlovchi fayllar joylashgan.
+- Migratsiya yaratish uchun:
+```shell
+python manage.py makemigrations
+```
+
+- Migratsiyalarni bajarish uchun:
+```shell
+python manage.py migrate
+```
+
