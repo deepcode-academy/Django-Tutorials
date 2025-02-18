@@ -46,3 +46,36 @@ myproject/
 │   │── migrations/
 │   └── templates/
 ```
+
+## Django loyihasining asosiy papkalari va fayllari
+
+1. **manage.py**
+
+Bu fayl Django loyihasi uchun muhim bo'lgan buyruqlarni ishga tushirish uchun ishlatiladi. Masalan:
+- Serverni ishga tushirish:
+```shell
+python manage.py runserver
+```
+
+- Yangi app yaratish:
+```shell
+python manage.py startapp appname
+```
+
+- Migratsiyalarni bajarish:
+```shell
+python manage.py migrate
+```
+
+2. Loyiha papkasi (myproject/)
+Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
+
+`__init__.py` 
+- Bu fayl papkani Python paketi sifatida belgilaydi.
+
+`settings.py`
+- Django loyihasining asosiy konfiguratsiya fayli.
+- Ma'lumotlar bazasi sozlamalari (**DATABASES**).
+- **App**lar ro'yxati (**INSTALLED_APPS**).
+- Middleware konfiguratsiyasi (**MIDDLEWARE**).
+- Statik va media fayllar (**STATIC_URL**, **MEDIA_URL**).
