@@ -139,3 +139,14 @@ urlpatterns = [
     path('', home, name='home'),
 ]
 ```
+
+`admin.py`
+- Django admin paneliga modellarning ro'yxatga olinishi uchun ishlatiladi.
+- Masalan:
+```python
+from django.contrib import admin
+from .models import UserProfile
+
+admin.site.register(UserProfile)
+```
+
