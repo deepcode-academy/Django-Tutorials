@@ -1,5 +1,9 @@
 # Django Project Structure
 
+- Django MTV (Model-Template-View) architecture
+- Folder and file structure in a Django project
+- Practice: Creating a Django project and app
+
 ## Django loyihasini yaratish
 Django loyihasini yaratish uchun quyidagi buyruq ishlatiladi:
 
@@ -188,4 +192,5 @@ class SimpleTest(TestCase):
 2. Django **urls.py** orqali mos keluvchi **view**ni topadi.⬇️
 3. **views.py** da mos keluvchi funksiya ishlaydi. ⬇️
 4. Agar ma'lumotlar kerak bo'lsa, **models.py** orqali ma'lumotlar bazasidan olinadi.⬇️
-5. Natija foydalanuvchiga **HttpResponse** yoki **render** orqali qaytariladi.⬇
+5. Natija foydalanuvchiga **HttpResponse** yoki **render** orqali qaytariladi.
+
