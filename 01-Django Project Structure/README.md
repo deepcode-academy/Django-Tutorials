@@ -181,3 +181,11 @@ class SimpleTest(TestCase):
 
 `static/`
 - CSS, JavaScript va media fayllar saqlanadigan joy.
+
+## Django loyihasi qanday ishlaydi?
+
+1. Brauzer foydalanuvchi so‘rov yuboradi.⬇️
+2. Django **urls.py** orqali mos keluvchi **view**ni topadi.⬇️
+3. **views.py** da mos keluvchi funksiya ishlaydi. ⬇️
+4. Agar ma'lumotlar kerak bo'lsa, **models.py** orqali ma'lumotlar bazasidan olinadi.⬇️
+5. Natija foydalanuvchiga **HttpResponse** yoki **render** orqali qaytariladi.⬇
