@@ -67,7 +67,8 @@ python manage.py startapp appname
 python manage.py migrate
 ```
 
-2. Loyiha papkasi (myproject/)
+2. Loyiha papkasi (**myproject/**)
+
 Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
 
 `__init__.py` 
@@ -117,9 +118,8 @@ class UserProfile(models.Model):
 
 `views.py`
 
-Brauzerdan kelgan so'rovlarni qayta ishlaydi.
-
-Masalan, oddiy Hello, World! sahifasi:
+- Brauzerdan kelgan so'rovlarni qayta ishlaydi.
+- Masalan, oddiy Hello, World! sahifasi:
 
 ```python
 from django.http import HttpResponse
