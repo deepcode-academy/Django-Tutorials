@@ -119,11 +119,23 @@ class UserProfile(models.Model):
 `views.py`
 
 - Brauzerdan kelgan so'rovlarni qayta ishlaydi.
-- Masalan, oddiy Hello, World! sahifasi:
+- Masalan, oddiy **Hello, World!** sahifasi:
 
 ```python
 from django.http import HttpResponse
 
 def home(request):
     return HttpResponse("Hello, World!")
+```
+
+`urls.py`
+- Ilova darajasidagi URL'larni boshqaradi.
+- Masalan:
+```python
+from django.urls import path
+from .views import home
+
+urlpatterns = [
+    path('', home, name='home'),
+]
 ```
