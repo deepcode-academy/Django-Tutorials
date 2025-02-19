@@ -53,7 +53,7 @@ def contact(request):
 - `about` funksiyasi `/about/` yo'lida **"This is the About Page."** xabarini qaytaradi.
 - `contact` funksiyasi `/contact/` yo'lida **"Contact us at contact@example.com."** xabarini qaytaradi.
 
-## Turli sahifalar uchun yo'llar va ko'rinishlar yaratish
+## Turli sahifalar uchun url va view yaratish
 
 Keling, bir nechta sahifalar uchun yo'llar va ko'rinishlar yaratamiz.
 
