@@ -49,3 +49,7 @@ def contact(request):
     return HttpResponse("Contact us at contact@example.com.")
 ```
 
+- `home` funksiyasi asosiy sahifaga kirganda **"Welcome to the Home Page!"** xabarini qaytaradi.
+- `about` funksiyasi `/about/` yo'lida **"This is the About Page."** xabarini qaytaradi.
+- `contact` funksiyasi `/contact/` yo'lida **"Contact us at contact@example.com."** xabarini qaytaradi.
+
