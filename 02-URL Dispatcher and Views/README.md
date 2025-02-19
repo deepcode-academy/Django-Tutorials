@@ -29,3 +29,23 @@ urlpatterns = [
 - `path('about/', views.about, name='about')` - `/about/` yo'lida `views.about` funksiyasi chaqiriladi.
 - `path('contact/', views.contact, name='contact')` - `/contact/` yo'lida `views.contact` funksiyasi chaqiriladi.
 
+## Views 
+
+> [!NOTE]
+> Views - bu foydalanuvchi so'rovlariga javob beradigan funksiyalar yoki classlar. Ular `views.py` faylida joylashgan.
+
+`views.py`
+
+```python
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the Home Page!")
+
+def about(request):
+    return HttpResponse("This is the About Page.")
+
+def contact(request):
+    return HttpResponse("Contact us at contact@example.com.")
+```
+
