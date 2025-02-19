@@ -23,5 +23,9 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
-
 ```
+
+- `path('', views.home, name='home')` - Asosiy sahifaga (`/`) so'rov kelganda `views.home` funksiyasi chaqiriladi.
+- `path('about/', views.about, name='about')` - `/about/` yo'lida `views.about` funksiyasi chaqiriladi.
+- `path('contact/', views.contact, name='contact')` - `/contact/` yo'lida `views.contact` funksiyasi chaqiriladi.
+
