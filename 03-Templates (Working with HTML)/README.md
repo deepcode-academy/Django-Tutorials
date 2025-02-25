@@ -1,5 +1,5 @@
-# URL Dispatcher and Views
+# Templates (Working with HTML)
 
-- Django URL routing
-- Django views.py and returning responses
-- Practice: Creating routes and views for different pages
+- Django template engine
+- Using variables and if-else statements in templates
+- Practice: Creating an HTML template
