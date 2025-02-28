@@ -16,3 +16,11 @@
   - **URL Routing:** Django URL-larni boshqarish uchun qulay tizimga ega. Bu orqali veb-sahifalarga murojaat qilishni osonlashtiradi.
   - **Forms and Validation:** Django formlar va ularni validatsiya qilish uchun kuchli vositalarni taqdim etadi.
   - **Security:** Django dasturchilarga xavfsizlikni ta'minlash uchun ko'plab vositalarni taqdim etadi, masalan, CSRF himoyasi, SQL ineksiyasiga qarshi himoya va boshqalar.
+
+## Installing Django
+
+- Djangoni o'rnatish uchun quyidagi buyruqni ishlatishingiz mumkin:
+
+```shell
+pip install django
+```
