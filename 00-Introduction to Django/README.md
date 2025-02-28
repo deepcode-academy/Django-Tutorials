@@ -10,4 +10,9 @@
 > Django - bu Python dasturlash tilida yozilgan **open-source** va bepul **veb framework** bo'lib, tez va sifatli veb-ilovalar yaratishga yordam beradi. Django "**rapid development**" g'oyasiga asoslangan bo'lib, dasturchilarga murakkab **veb application**larni kam vaqt va kam kod bilan yaratish imkoniyatini beradi.
 
 - Key Features of Django:
-  1. **Model-View-Template (MVT) Architecture:** Django MVT arxitekturasidan foydalanadi. Bu arxitektura dastur logikasi, ma'lumotlar bazasi va foydalanuvchi interfeysini ajratib turadi.
+  - **Model-View-Template (MVT) Architecture:** Django MVT arxitekturasidan foydalanadi. Bu arxitektura dastur logikasi, ma'lumotlar bazasi va foydalanuvchi interfeysini ajratib turadi.
+  - **ORM (Object-Relational Mapping):** Django ORM yordamida ma'lumotlar bazasi bilan ishlashni osonlashtiradi. SQL so'rovlarini yozmasdan, Python kodlari orqali ma'lumotlar bazasiga murojaat qilish mumkin.
+  - **Admin Panel:** Django avtomatik ravishda admin panelini yaratadi, bu orqali ma'lumotlar bazasidagi ma'lumotlarni boshqarish mumkin.
+  - **URL Routing:** Django URL-larni boshqarish uchun qulay tizimga ega. Bu orqali veb-sahifalarga murojaat qilishni osonlashtiradi.
+  - **Forms and Validation:** Django formlar va ularni validatsiya qilish uchun kuchli vositalarni taqdim etadi.
+  - **Security:** Django dasturchilarga xavfsizlikni ta'minlash uchun ko'plab vositalarni taqdim etadi, masalan, CSRF himoyasi, SQL ineksiyasiga qarshi himoya va boshqalar.
