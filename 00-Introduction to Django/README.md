@@ -1,12 +1,9 @@
-# Introduction to Django and Setting Up the Project 
+# Introduction to Django
 
-- Theoretical part:
-  - Django frameworkiga kirish va asosiy tushunchalar
-  - Django'ni o'rnatish va yangi loyiha yaratish
-- Practical part:
-  - Django loyihasini yaratish: `django-admin startproject ecommerce`
-  - Django serverini ishga tushirish
-  - App yaratish: `python manage.py startapp store`
+- What is Django?
+- Differences between Django and other frameworks
+- Installing Django (with Python virtual environment)
+- Practice: Creating a Django project
 
 > [!NOTE]
 > Django – bu Python tilida yozilgan, veb-ilovalarni tez va samarali ishlab chiqish uchun mo‘ljallangan yuqori darajali web-framework. Django keng qo‘llaniladigan framework, chunki undan ko'p standart funksiyalar bor va dasturchilarni kamroq kod yozishiga yordam beradi.
