@@ -24,3 +24,24 @@
 ```shell
 pip install django
 ```
+
+## Creating a Django Project
+
+- Yangi Django project yaratish uchun quyidagi buyruqni ishlating:
+
+```shell
+django-admin startproject myproject
+```
+
+- Bu buyruq myproject nomli yangi loyiha yaratadi. Loyiha ichida quyidagi fayllar va papkalar mavjud bo'ladi:
+
+```markdown
+myproject/
+    manage.py
+    myproject/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+```
