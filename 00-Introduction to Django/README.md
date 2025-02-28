@@ -33,7 +33,7 @@ pip install django
 django-admin startproject myproject
 ```
 
-- Bu buyruq myproject nomli yangi loyiha yaratadi. Loyiha ichida quyidagi fayllar va papkalar mavjud bo'ladi:
+- Bu buyruq `myproject` nomli yangi loyiha yaratadi. Loyiha ichida quyidagi fayllar va papkalar mavjud bo'ladi:
 
 ```markdown
 myproject/
@@ -44,4 +44,25 @@ myproject/
         urls.py
         asgi.py
         wsgi.py
+```
+
+## Creating a Django App
+
+- Loyiha ichida yangi `application` yaratish uchun quyidagi buyruqni ishlating:
+
+```shell
+python manage.py startapp myapp
+```
+- Bu buyruq `myapp` nomli yangi ilova yaratadi. Ilova ichida quyidagi fayllar va papkalar mavjud bo'ladi:
+
+```markdown
+myapp/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
 ```
