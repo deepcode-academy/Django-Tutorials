@@ -19,23 +19,23 @@
 | ORM               | Ob'ektga yo'naltirilgan ma'lumotlar bazasi bilan ishlash imkonini beradi.                    |
 
 
-## 🔧 Installing Django
+## 🔧 Djangoni o‘rnatish
 
 ```shell
 pip install django
 ```
-**Check the installation:**
+**O'rnatilganligini tekshirish:**
 ```shell
 django-admin --version
 ```
 
-## 🛠 Creating a Django Project
+## 🛠 Django loyiha yaratish
 
 ```shell
 django-admin startproject myproject
 ```
 
-**Project structure:**
+**Struktura:**
 
 ```markdown
 myproject/
@@ -47,3 +47,13 @@ myproject/
     ├── asgi.py
     └── wsgi.py
 ```
+
+## ▶ Django serverni ishga tushirish
+
+```shell
+cd myproject
+python manage.py runserver
+```
+
+**Browserda ochish**: http://127.0.0.1:8000/
+
