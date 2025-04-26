@@ -48,7 +48,7 @@ myproject/
     └── wsgi.py
 ```
 
-## ▶ Django serverni ishga tushirish
+# ▶ Django serverni ishga tushirish
 
 ```shell
 cd myproject
@@ -57,3 +57,20 @@ python manage.py runserver
 
 **Browserda ochish**: http://127.0.0.1:8000/
 
+# 📦 Django ilova (app) yaratish
+
+```shell
+python manage.py startapp blog
+```
+
+Ilova strukturasi:
+
+```markdown
+blog/
+├── admin.py
+├── apps.py
+├── models.py
+├── tests.py
+├── views.py
+└── urls.py (o'zimiz yaratamiz)
+```
