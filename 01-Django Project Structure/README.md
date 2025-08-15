@@ -2,9 +2,10 @@
 
 # 🧩 DJANGO PROJECT STRUCTURE
 
-- Django MTV (Model-Template-View) architecture
-- Folder and file structure in a Django project
-- Practice: Creating a Django project and app
+- **Django loyihasi MTV (Model-Template-View) arxitekturasiga asoslanadi:**
+    - **Model:** Ma'lumotlar bazasi bilan ishlash uchun jadvallar va logikani belgilaydi.
+    - **Template:** Foydalanuvchi interfeysi uchun HTML shablonlar.
+    - **View:** So‘rovlar va javoblar o‘rtasidagi mantiqiy bog‘lovchi.
 
 ## Django loyihasini yaratish
 Django loyihasini yaratish uchun quyidagi buyruq ishlatiladi:
