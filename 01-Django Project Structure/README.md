@@ -53,7 +53,7 @@ python manage.py startapp app_name
 
 # ✅ ILOVA(APP)NI LOYIHA(PROJECT)GA ULASH
 
-📌 Yangi yaratilgan ilovani loyihaga qo‘shish uchun `settings.py` faylidagi `INSTALLED_APPS` ro‘yxatini oxiriga ilova nomini qo‘shiladi:
+📌 Yangi yaratilgan ilovani loyihaga qo‘shish uchun `settings.py` faylidagi `INSTALLED_APPS` ro‘yxatini oxiriga ilova nomi qo‘shiladi:
 
 ```python
 INSTALLED_APPS = [
@@ -65,6 +65,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app_name',  # Yangi ilova
 ```
+
+# ✅ ILOVA(APP) URLSNI LOYIHA(PROJECT) URLSGA ULASH
+
+- Djangoda project va app **urls.py** fayllari marshrutlashni (URL routing) boshqaradi:
+    - Project **urls.py** – butun loyiha uchun asosiy URL xaritasi 
+    - App **urls.py** – faqat shu app ichidagi URL manzillarni boshqaradi
 
 ## Django loyihasining asosiy papkalari va fayllari
 
