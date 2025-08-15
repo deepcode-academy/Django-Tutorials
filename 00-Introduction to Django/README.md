@@ -54,7 +54,6 @@ project_name/     # Django loyihasining asosiy papkasi (sozlamalar joylashgan)
 # ▶ Django serverni ishga tushirish
 
 ```shell
-cd myproject
 python manage.py runserver
 ```
 
@@ -63,17 +62,20 @@ python manage.py runserver
 # 📦 Django ilova (app) yaratish
 
 ```shell
-python manage.py startapp blog
+python manage.py startapp app_name
 ```
 
 Ilova strukturasi:
 
 ```markdown
-blog/
-├── admin.py
-├── apps.py
-├── models.py
-├── tests.py
-├── views.py
-└── urls.py (o'zimiz yaratamiz)
+app_name/
+├── __init__.py       # Papkani Python paketi sifatida belgilaydi
+├── admin.py          # Admin panelga modelni ro‘yxatdan o‘tkazish
+├── apps.py           # App konfiguratsiyasi
+├── migrations/       # Ma'lumotlar bazasi o‘zgarishlari (migratsiyalar) saqlanadigan papka
+│   └── __init__.py
+├── models.py         # Ma'lumotlar bazasi modellari
+├── tests.py          # Test kodlari
+├── views.py          # So‘rovlar (request) va javoblar (response) ishlovchilari
+└── urls.py           # (Biz qo‘lda yaratamiz) — appning URL marshrutlari
 ```
