@@ -1,8 +1,8 @@
-# 🌐 Django Web Framework Asoslari
+# 🌐 DJANGO WEB FRAMEWORK ASOSLARI
 
-# 🧩 Introduction to Django
+# 🧩 INTRODUCTION TO DJANGO
 
-# 🔰Django Nima?
+# 🔰 DJANGO NIMA?
 
 📌 **Django** — bu **Python dasturlash tilida yozilgan veb-framework** bo‘lib, veb-ilovalarni tez va xavfsiz tarzda ishlab chiqishga yordam beradi.
 
@@ -10,7 +10,7 @@
 
 > (Muddati bor mukammallikni yoqtiradiganlar uchun veb-framework.)
 
-# ✅ Djangoning afzalliklari
+# ✅ DJANGONING AFZALLIKLARI
 
 | Afzallik          | Tavsif                                                                                       |
 |-------------------|----------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@
 | Extensible        | Kengaytirilgan plaginlar, kutubxonalar va jamoa mavjud.                                      |
 | ORM               | Ob'ektga yo'naltirilgan ma'lumotlar bazasi bilan ishlash imkonini beradi.                    |
 
-# ✅ Django Frameworkining Asosiy Xususiyatlari
+# ✅ DJANGO FRAMEWORKINING ASOSIY XUSUSIYATLARI
 
 ## ❇️ Django nima uchun mashhur?
 
@@ -40,7 +40,7 @@
 - API backend-lari
 - Ilmiy va ma'lumotlarni tahlil qilish loyihalari
 
-# ✅ Djangoni o‘rnatish
+# ✅ DJANGONI O'RNATISH
 
 ```shell
 pip install django
@@ -50,7 +50,7 @@ pip install django
 django-admin --version
 ```
 
-# ✅ Django loyiha(project) yaratish
+# ✅ DJANGO LOYIHA(PROJECT) YARATISH
 
 📌 Django loyihani yaratishning sababi — **bu butun veb-ilovangiz uchun asosiy “yadro”** (framework struktura) tayyorlab berishidir.
 
@@ -70,7 +70,7 @@ project_name/     # Django loyihasining asosiy papkasi (sozlamalar joylashgan)
 └── wsgi.py       # WSGI server kirish nuqtasi (classic ishlash uchun)
 ```
 
-# ✅ Django serverni ishga tushirish
+# ✅ DJANGO SERVERINI ISHGA TUSHURISH
 
 ```shell
 python manage.py runserver
@@ -78,7 +78,7 @@ python manage.py runserver
 
 📌 **Browserda ochish**: http://127.0.0.1:8000/
 
-# ✅ Django ilova (app) yaratish
+# ✅ DJANGO ILOVA(APP) YARATISH
 
 ```shell
 python manage.py startapp app_name
