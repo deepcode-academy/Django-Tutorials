@@ -21,7 +21,9 @@
 | ORM               | Ob'ektga yo'naltirilgan ma'lumotlar bazasi bilan ishlash imkonini beradi.                    |
 
 
-## 🔧 Djangoni o‘rnatish
+
+
+## ✅ Djangoni o‘rnatish
 
 ```shell
 pip install django
@@ -31,7 +33,7 @@ pip install django
 django-admin --version
 ```
 
-## 🛠 Django loyiha yaratish
+## ✅ Django loyiha yaratish
 
 📌 Django loyihani yaratishning sababi — **bu butun veb-ilovangiz uchun asosiy “yadro”** (framework struktura) tayyorlab berishidir.
 
@@ -51,7 +53,7 @@ project_name/     # Django loyihasining asosiy papkasi (sozlamalar joylashgan)
 └── wsgi.py       # WSGI server kirish nuqtasi (classic ishlash uchun)
 ```
 
-# ▶ Django serverni ishga tushirish
+# ✅ Django serverni ishga tushirish
 
 ```shell
 python manage.py runserver
@@ -59,7 +61,7 @@ python manage.py runserver
 
 📌 **Browserda ochish**: http://127.0.0.1:8000/
 
-# 📦 Django ilova (app) yaratish
+# ✅ Django ilova (app) yaratish
 
 ```shell
 python manage.py startapp app_name
