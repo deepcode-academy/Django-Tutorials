@@ -72,6 +72,23 @@ INSTALLED_APPS = [
     - Project **urls.py** – butun loyiha uchun asosiy URL xaritasi 
     - App **urls.py** – faqat shu app ichidagi URL manzillarni boshqaradi
 
+```python
+from django.contrib import admin
+from django.urls import path, include  # include() import qilinadi
+
+urlpatterns = [
+    path('admin/', admin.site.urls),     
+    path('', include('myapp.urls')),     # MyApp URL’larini qo‘shish
+]
+```
+
+🎯 `include` Djangoda project **urls.py** ichida boshqa URL konfiguratsiyalarni qo‘shish uchun ishlatiladi, shuning uchun uni import qilish shart.
+
+## ❇️ `include()` nima qiladi?
+
+- `include()` Djangoga “borib, boshqa **urls.py** faylini ichiga qo‘sh” deb aytadi.
+- Bu kattaroq loyihalarda tartibni saqlash va URLlarni modullar bo‘yicha ajratish uchun juda foydali.
+
 ## Django loyihasining asosiy papkalari va fayllari
 
 1. **manage.py**
