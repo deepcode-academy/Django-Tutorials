@@ -23,7 +23,7 @@
 
 
 
-## ✅ Djangoni o‘rnatish
+# ✅ Djangoni o‘rnatish
 
 ```shell
 pip install django
@@ -33,7 +33,7 @@ pip install django
 django-admin --version
 ```
 
-## ✅ Django loyiha yaratish
+# ✅ Django loyiha(project) yaratish
 
 📌 Django loyihani yaratishning sababi — **bu butun veb-ilovangiz uchun asosiy “yadro”** (framework struktura) tayyorlab berishidir.
 
