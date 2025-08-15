@@ -20,8 +20,17 @@
 | Extensible        | Kengaytirilgan plaginlar, kutubxonalar va jamoa mavjud.                                      |
 | ORM               | Ob'ektga yo'naltirilgan ma'lumotlar bazasi bilan ishlash imkonini beradi.                    |
 
+# ✅ Django Frameworkining Asosiy Xususiyatlari
 
+## ❇️ Django nima uchun mashhur?
 
+📌 Django Python tilida yozilgan ochiq kodli (open-source) veb-framework bo‘lib, veb-ilovalarni ishlab chiqishni soddalashtirishga qaratilgan. U “DRY” (Don't Repeat Yourself) va “Convention over Configuration” tamoyillariga asoslanadi, bu esa dasturchilarga tez, samarali va tushunarli kod yozish imkonini beradi.
+
+## ❇️ Django kimlar uchun?
+
+- **Startaplar va katta loyihalar:** Django Instagram, Pinterest, Disqus kabi yirik loyihalarda ishlatilgan.
+- **Yangidan boshlovchilar:** Oddiy va tushunarli tuzilmasi tufayli o‘rganish oson.
+- **Tajribali dasturchilar:** Kengaytiriladigan arxitekturasi va moslashuvchanligi tufayli murakkab loyihalarda qulay.
 
 # ✅ Djangoni o‘rnatish
 
