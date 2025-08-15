@@ -89,6 +89,10 @@ urlpatterns = [
 - `include()` Djangoga “borib, boshqa **urls.py** faylini ichiga qo‘sh” deb aytadi.
 - Bu kattaroq loyihalarda tartibni saqlash va URLlarni modullar bo‘yicha ajratish uchun juda foydali.
 
+# ✅ LOYIHANING ASOSIY FAYLLARI VA PAPKALARI
+
+
+
 ## Django loyihasining asosiy papkalari va fayllari
 
 1. **manage.py**
