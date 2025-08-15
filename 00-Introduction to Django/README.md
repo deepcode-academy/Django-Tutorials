@@ -33,21 +33,22 @@ django-admin --version
 
 ## 🛠 Django loyiha yaratish
 
+📌 Django loyihani yaratishning sababi — **bu butun veb-ilovangiz uchun asosiy “yadro”** (framework struktura) tayyorlab berishidir.
+
 ```shell
-django-admin startproject myproject
+django-admin startproject project_name .
 ```
 
 **Struktura:**
 
 ```markdown
-myproject/
-├── manage.py
-└── myproject/
-    ├── __init__.py
-    ├── settings.py
-    ├── urls.py
-    ├── asgi.py
-    └── wsgi.py
+manage.py
+project_name/     # Django loyihasining asosiy papkasi (sozlamalar joylashgan)
+├── __init__.py   # Papkani Python paketi sifatida belgilaydi
+├── settings.py   # Django sozlamalari (DB, app, static va boshqalar)
+├── urls.py       # URL marshrutlari (routing)
+├── asgi.py       # ASGI server kirish nuqtasi (async ishlash uchun)
+└── wsgi.py       # WSGI server kirish nuqtasi (classic ishlash uchun)
 ```
 
 # ▶ Django serverni ishga tushirish
