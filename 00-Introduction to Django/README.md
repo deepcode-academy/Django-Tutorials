@@ -1,10 +1,10 @@
 # 🌐 Django Web Framework Asoslari
 
-# Introduction to Django
+# 🧩 Introduction to Django
 
 # 🔰Django Nima?
 
-**Django** — bu **Python dasturlash tilida yozilgan veb-framework** bo‘lib, veb-ilovalarni tez va xavfsiz tarzda ishlab chiqishga yordam beradi.
+📌 **Django** — bu **Python dasturlash tilida yozilgan veb-framework** bo‘lib, veb-ilovalarni tez va xavfsiz tarzda ishlab chiqishga yordam beradi.
 
 > Django shiori: "The web framework for perfectionists with deadlines."
 
@@ -26,7 +26,7 @@
 ```shell
 pip install django
 ```
-**O'rnatilganligini tekshirish:**
+📌 **O'rnatilganligini tekshirish:**
 ```shell
 django-admin --version
 ```
@@ -39,7 +39,7 @@ django-admin --version
 django-admin startproject project_name .
 ```
 
-**Struktura:**
+📌 **Struktura:**
 
 ```markdown
 manage.py
@@ -57,7 +57,7 @@ project_name/     # Django loyihasining asosiy papkasi (sozlamalar joylashgan)
 python manage.py runserver
 ```
 
-**Browserda ochish**: http://127.0.0.1:8000/
+📌 **Browserda ochish**: http://127.0.0.1:8000/
 
 # 📦 Django ilova (app) yaratish
 
@@ -65,7 +65,7 @@ python manage.py runserver
 python manage.py startapp app_name
 ```
 
-Ilova strukturasi:
+📌 Ilova strukturasi:
 
 ```markdown
 app_name/
