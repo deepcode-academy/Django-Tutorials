@@ -32,6 +32,14 @@
 - **Yangidan boshlovchilar:** Oddiy va tushunarli tuzilmasi tufayli o‘rganish oson.
 - **Tajribali dasturchilar:** Kengaytiriladigan arxitekturasi va moslashuvchanligi tufayli murakkab loyihalarda qulay.
 
+## ❇️ Django qayerda ishlatiladi?
+
+- Kontent boshqaruv tizimlari (CMS)
+- Ijtimoiy tarmoqlar
+- E-commerce platformalari
+- API backend-lari
+- Ilmiy va ma'lumotlarni tahlil qilish loyihalari
+
 # ✅ Djangoni o‘rnatish
 
 ```shell
