@@ -9,12 +9,12 @@
 
 # ✅ LOYIHA TUZILMASI
 
-📌 Django loyihasi va ilovasi (app) yaratilganda quyidagi fayl va papkalar hosil bo‘ladi:
+📌 Django loyihasi(project) va ilovasi(app) yaratilganda quyidagi fayl va papkalar hosil bo‘ladi:
 
 ```markdown
-project_name/
+project_folder/
 │── manage.py
-│── myproject/
+│── project_name/
 │   │── __init__.py
 │   │── settings.py
 │   │── urls.py
@@ -32,7 +32,7 @@ project_name/
 │   └── static/
 ```
 
-# ✅ DJANGO LOYIHA YARATISH
+# ✅ DJANGO LOYIHA(PROJECT) YARATISH
 
 📌 Django loyihasini yaratish uchun quyidagi buyruq ishlatiladi:
 
@@ -40,6 +40,31 @@ project_name/
 django-admin startproject project_name .
 ```
 🎯 Bu buyruq project_name nomli loyiha papkasini yaratadi. Loyiha ichida asosiy konfiguratsiya fayllari joylashadi.
+
+# ✅ DJANGO ILOVA(APP) YARATISH
+
+📌 Loyiha ichida ilova yaratish uchun quyidagi buyruq ishlatiladi:
+
+```shell
+python manage.py startapp app_name
+```
+
+🎯 Bu buyruq myapp nomli ilova yaratadi va loyiha tuzilmasiga yangi papka qo‘shadi. Har bir ilova o‘ziga xos funksionallikni ta'minlaydi (masalan, blog, base yoki foydalanuvchi boshqaruvi).
+
+# ✅ ILOVA(APP)NI LOYIHA(PROJECT)GA ULASH
+
+📌 Yangi yaratilgan ilovani loyihaga qo‘shish uchun `settings.py` faylidagi `INSTALLED_APPS` ro‘yxatini oxiriga ilova nomini qo‘shiladi:
+
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app_name',  # Yangi ilova
+```
 
 ## Django loyihasining asosiy papkalari va fayllari
 
