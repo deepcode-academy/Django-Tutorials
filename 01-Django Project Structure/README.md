@@ -7,17 +7,12 @@
     - **Template:** Foydalanuvchi interfeysi uchun HTML shablonlar.
     - **View:** So‘rovlar va javoblar o‘rtasidagi mantiqiy bog‘lovchi.
 
-## Django loyihasini yaratish
-Django loyihasini yaratish uchun quyidagi buyruq ishlatiladi:
+# ✅ LOYIHA TUZILMASI
 
-```shell
-django-admin startproject myproject
-```
-
-Bu buyruq `myproject` nomli yangi loyiha yaratadi va quyidagi tuzilmani hosil qiladi:
+📌 Django loyihasi va ilovasi (app) yaratilganda quyidagi fayl va papkalar hosil bo‘ladi:
 
 ```markdown
-myproject/
+project_name/
 │── manage.py
 │── myproject/
 │   │── __init__.py
@@ -25,25 +20,7 @@ myproject/
 │   │── urls.py
 │   │── asgi.py
 │   └── wsgi.py
-```
-
-Loyihani yaratgandan so'ng, yangi ilova (app) yaratish uchun quyidagilarni bajarish mumkin:
-
-```shell
-python manage.py startapp myapp
-```
-Bu `myapp` nomli yangi ilova yaratadi va loyiha quyidagi tuzilmani oladi:
-
-```markdown
-myproject/
-│── manage.py
-│── myproject/
-│   │── __init__.py
-│   │── settings.py
-│   │── urls.py
-│   │── asgi.py
-│   └── wsgi.py
-│── myapp/
+│── app_name/
 │   │── __init__.py
 │   │── admin.py
 │   │── apps.py
@@ -51,8 +28,18 @@ myproject/
 │   │── tests.py
 │   │── views.py
 │   │── migrations/
-│   └── templates/
+│   │── templates/
+│   └── static/
 ```
+
+# ✅ DJANGO LOYIHA YARATISH
+
+📌 Django loyihasini yaratish uchun quyidagi buyruq ishlatiladi:
+
+```shell
+django-admin startproject project_name .
+```
+🎯 Bu buyruq project_name nomli loyiha papkasini yaratadi. Loyiha ichida asosiy konfiguratsiya fayllari joylashadi.
 
 ## Django loyihasining asosiy papkalari va fayllari
 
