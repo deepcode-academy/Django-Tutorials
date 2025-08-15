@@ -1,6 +1,6 @@
-# 🌐 Django Web Framework Asoslari
+# 🌐 DJANGO WEB FRAMEWORK ASOSLARI
 
-# Django Project Structure
+# 🧩 DJANGO PROJECT STRUCTURE
 
 - Django MTV (Model-Template-View) architecture
 - Folder and file structure in a Django project
