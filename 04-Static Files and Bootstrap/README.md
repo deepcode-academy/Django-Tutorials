@@ -1,3 +1,5 @@
+# 🌐 DJANGO WEB FRAMEWORK ASOSLARI
+
 # Static Files and Bootstrap
 
 - Static files (CSS, JS, media)
