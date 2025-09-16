@@ -144,6 +144,14 @@ python manage.py loaddata data.json
 python manage.py collectstatic
 ```
 
+### ✳️ 6. Buyruqlar ro‘yxatini ko‘rish
+
+📌 Django’da mavjud barcha buyruqlarni ko‘rish:
+
+```shell
+python manage.py help
+```
+
 - Serverni ishga tushirish:
 ```shell
 python manage.py runserver
