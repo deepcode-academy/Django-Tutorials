@@ -130,6 +130,20 @@ python manage.py shell
 python manage.py dumpdata > data.json
 ```
 
+📌 Saqlangan ma’lumotni bazaga qayta yuklash:
+
+```shell
+python manage.py loaddata data.json
+```
+
+### ✳️ 5. Statik fayllarni yig‘ish
+
+📌 Barcha statik fayllarni bitta joyga yig‘ib beradi (deploymentda kerak bo‘ladi):
+
+```shell
+python manage.py collectstatic
+```
+
 - Serverni ishga tushirish:
 ```shell
 python manage.py runserver
