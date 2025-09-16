@@ -114,6 +114,16 @@ python manage.py createsuperuser
 python manage.py makemigrations
 ```
 
+### ✳️ 3. Shell rejimiga kirish
+
+📌 Django muhitida Python interaktiv shellini ishga tushiradi:
+
+```shell
+python manage.py shell
+```
+
+
+
 - Serverni ishga tushirish:
 ```shell
 python manage.py runserver
