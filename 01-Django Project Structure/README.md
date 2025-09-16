@@ -92,10 +92,7 @@ urlpatterns = [
 # ✅ LOYIHANING ASOSIY FAYLLARI VA PAPKALARI
 
 
-
-## Django loyihasining asosiy papkalari va fayllari
-
-1. **manage.py**
+## ❇️ 1. **manage.py**
 
 Bu fayl Django loyihasi uchun muhim bo'lgan buyruqlarni ishga tushirish uchun ishlatiladi. Masalan:
 - Serverni ishga tushirish:
