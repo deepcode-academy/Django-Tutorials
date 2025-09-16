@@ -166,7 +166,7 @@ python manage.py showmigrations
 python manage.py changepassword username
 ```
 
-### ✳️ Serverni boshqa port yoki IP da ishga tushirish
+### ✳️ 9. Serverni boshqa port yoki IP da ishga tushirish
 
 📌 Masalan, 8001-portda:
 
@@ -179,20 +179,16 @@ python manage.py runserver 8001
 python manage.py runserver 0.0.0.0:8000
 ```
 
+### ✳️ 10. O‘z buyruqlaringizni yaratish
 
-### ✳️ 
+📌 `management/commands/` papkasi ichida yangi buyruq yozish mumkin. Masalan:
 
-- Serverni ishga tushirish:
 ```shell
-python manage.py runserver
+python manage.py mycommand
 ```
 
-- Yangi app yaratish:
-```shell
-python manage.py startapp appname
-```
+### ✳️ 11. migrate bu fayldagi o‘zgarishlarni real ma’lumotlar bazasiga qo‘llaydi.
 
-- Migratsiyalarni bajarish:
 ```shell
 python manage.py migrate
 ```
