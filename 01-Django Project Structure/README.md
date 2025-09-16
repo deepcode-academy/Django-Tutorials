@@ -152,6 +152,36 @@ python manage.py collectstatic
 python manage.py help
 ```
 
+### ✳️ 7. Migrationlarni tekshirish
+
+📌 Bazaga migration qo‘llanadimi yoki yo‘qmi, tekshiradi:
+
+```shell
+python manage.py showmigrations
+```
+
+### ✳️ 8. Parolni o‘zgartirish (foydalanuvchi uchun)
+
+```shell
+python manage.py changepassword username
+```
+
+### ✳️ Serverni boshqa port yoki IP da ishga tushirish
+
+📌 Masalan, 8001-portda:
+
+```shell
+python manage.py runserver 8001
+```
+📌 yoki lokal tarmoqdagi boshqa qurilmalardan ham kirish uchun:
+
+```shell
+python manage.py runserver 0.0.0.0:8000
+```
+
+
+### ✳️ 
+
 - Serverni ishga tushirish:
 ```shell
 python manage.py runserver
