@@ -122,7 +122,13 @@ python manage.py makemigrations
 python manage.py shell
 ```
 
+### ✳️ 4. Baza ma’lumotlarini ko‘chirish (dumplar)
 
+📌 Ma’lumotlarni JSON faylga saqlash:
+
+```shell
+python manage.py dumpdata > data.json
+```
 
 - Serverni ishga tushirish:
 ```shell
