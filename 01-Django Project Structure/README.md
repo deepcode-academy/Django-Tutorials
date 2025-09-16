@@ -92,9 +92,20 @@ urlpatterns = [
 # ✅ LOYIHANING ASOSIY FAYLLARI VA PAPKALARI
 
 
-## ❇️ 1. **manage.py**
+## ❇️ `manage.py`
 
-Bu fayl Django loyihasi uchun muhim bo'lgan buyruqlarni ishga tushirish uchun ishlatiladi. Masalan:
+`manage.py` fayli — bu Django loyihasining asosiy boshqaruv fayli, ya’ni u orqali turli xil buyruqlarni bajarish mumkin. Siz aytgan uchta (runserver, startapp, migrate) eng ko‘p ishlatiladigani, lekin bundan tashqari juda ko‘p imkoniyatlar bor.
+
+Django `manage.py` yordamida qo‘shimcha buyruqlar
+
+### ✳️ 1. Superuser yaratish
+
+📌 Admin paneliga kirish uchun foydalanuvchi yaratadi:
+
+```shell
+python manage.py createsuperuser
+```
+
 - Serverni ishga tushirish:
 ```shell
 python manage.py runserver
