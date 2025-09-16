@@ -94,9 +94,9 @@ urlpatterns = [
 
 ## ❇️ `manage.py`
 
-`manage.py` fayli — bu Django loyihasining asosiy boshqaruv fayli, ya’ni u orqali turli xil buyruqlarni bajarish mumkin. Siz aytgan uchta (runserver, startapp, migrate) eng ko‘p ishlatiladigani, lekin bundan tashqari juda ko‘p imkoniyatlar bor.
+📌 `manage.py` fayli — bu Django loyihasining asosiy boshqaruv fayli, ya’ni u orqali turli xil buyruqlarni bajarish mumkin. Siz aytgan uchta (runserver, startapp, migrate) eng ko‘p ishlatiladigani, lekin bundan tashqari juda ko‘p imkoniyatlar bor.
 
-Django `manage.py` yordamida qo‘shimcha buyruqlar
+📌 Django `manage.py` yordamida qo‘shimcha buyruqlar
 
 ### ✳️ 1. Superuser yaratish
 
@@ -104,6 +104,14 @@ Django `manage.py` yordamida qo‘shimcha buyruqlar
 
 ```shell
 python manage.py createsuperuser
+```
+
+### ✳️ 2. Yangi migration fayl yaratish
+
+📌 Modeldagi o‘zgarishlarni migration fayliga yozib qo‘yadi:
+
+```shell
+python manage.py makemigrations
 ```
 
 - Serverni ishga tushirish:
