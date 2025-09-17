@@ -193,7 +193,7 @@ python manage.py mycommand
 python manage.py migrate
 ```
 
-2. Loyiha papkasi (**myproject/**)
+## ❇️ Loyiha papkasi (**myproject/**)
 
 Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
 
