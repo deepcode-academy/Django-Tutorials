@@ -287,12 +287,12 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-`apps.py`
-- Django ilovasining konfiguratsiyalarini saqlaydi.
+### ✳️ `apps.py`
+📌 Django applarni konfiguratsiyalarini saqlaydi.
 
-`tests.py`
-- Django'da test yozish uchun ishlatiladi.
-- Masalan:
+### ✳️ `tests.py`
+📌 Djangoda test yozish uchun ishlatiladi.
+
 ```python
 from django.test import TestCase
 
@@ -301,8 +301,8 @@ class SimpleTest(TestCase):
         self.assertEqual(1 + 1, 2)
 ```
 
-`templates/`
-- HTML shablonlar joylashadigan papka.
+### ✳️ `templates/`
+📌 HTML shablonlar joylashadigan papka.
 
 `static/`
 - CSS, JavaScript va media fayllar saqlanadigan joy.
