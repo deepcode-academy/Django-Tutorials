@@ -252,9 +252,9 @@ def home(request):
     return HttpResponse("Hello, World!")
 ```
 
-`urls.py`
-- Ilova darajasidagi URL'larni boshqaradi.
-- Masalan:
+### ✳️ `urls.py`
+📌 Ilova darajasidagi URL'larni boshqaradi.
+
 ```python
 from django.urls import path
 from .views import home
@@ -264,9 +264,9 @@ urlpatterns = [
 ]
 ```
 
-`admin.py`
-- Django admin paneliga modellarning ro'yxatga olinishi uchun ishlatiladi.
-- Masalan:
+### ✳️ `admin.py`
+📌 Django admin paneliga modellarning ro'yxatga olinishi uchun ishlatiladi.
+
 ```python
 from django.contrib import admin
 from .models import UserProfile
@@ -274,14 +274,15 @@ from .models import UserProfile
 admin.site.register(UserProfile)
 ```
 
-`migrations/`
-- Ma'lumotlar bazasi o'zgarishlarini saqlovchi fayllar joylashgan.
-- Migratsiya yaratish uchun:
+### ✳️ `migrations/`
+📌 Ma'lumotlar bazasi o'zgarishlarini saqlovchi fayllar joylashgan.
+
 ```shell
 python manage.py makemigrations
 ```
 
-- Migratsiyalarni bajarish uchun:
+📌 Migratsiyalarni bajarish uchun:
+
 ```shell
 python manage.py migrate
 ```
