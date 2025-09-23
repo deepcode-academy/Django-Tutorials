@@ -197,10 +197,10 @@ python manage.py migrate
 
 📌 Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
 
-`__init__.py` 
-- Bu fayl papkani Python paketi sifatida belgilaydi.
+### ✳️ `__init__.py` 
+📌 Bu fayl papkani **Python paketi** sifatida belgilaydi.
 
-`settings.py`
+### ✳️ `settings.py`
 - Django loyihasining asosiy konfiguratsiya fayli.
 - Ma'lumotlar bazasi sozlamalari (**DATABASES**).
 - **App**lar ro'yxati (**INSTALLED_APPS**).
