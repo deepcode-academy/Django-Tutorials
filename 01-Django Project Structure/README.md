@@ -201,11 +201,12 @@ python manage.py migrate
 📌 Bu fayl papkani **Python paketi** sifatida belgilaydi.
 
 ### ✳️ `settings.py`
-- Django loyihasining asosiy konfiguratsiya fayli.
-- Ma'lumotlar bazasi sozlamalari (**DATABASES**).
-- **App**lar ro'yxati (**INSTALLED_APPS**).
-- Middleware konfiguratsiyasi (**MIDDLEWARE**).
-- Statik va media fayllar (**STATIC_URL**, **MEDIA_URL**).
+📌 Loyiha konfiguratsiyalari shu yerda.
+- Muhim bo‘limlar:
+    - **DATABASES** – ma’lumotlar bazasi sozlamalari
+    - **INSTALLED_APPS** – ulanishi kerak bo‘lgan app’lar ro‘yxati
+    - **MIDDLEWARE** – request/response jarayonlarini boshqaruvchi qavatlar
+    - **STATIC_URL**, **MEDIA_URL** – statik va media fayllar yo‘llari
 
 `urls.py`
 - Loyiha darajasida marshrutlarni (URL'larni) boshqarish uchun ishlatiladi.
