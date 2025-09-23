@@ -230,7 +230,7 @@ urlpatterns = [
 📌 Har bir app odatda quyidagi fayllardan iborat bo‘ladi:
 
 ### ✳️ `models.py`
-- Ma’lumotlar bazasi jadvallari shu yerda yoziladi.
+📌 Ma’lumotlar bazasi jadvallari shu yerda yoziladi.
 
 ```python
 from django.db import models
@@ -241,10 +241,9 @@ class UserProfile(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 ```
 
-`views.py`
+### ✳️ `views.py`
 
-- Brauzerdan kelgan so'rovlarni qayta ishlaydi.
-- Masalan, oddiy **Hello, World!** sahifasi:
+📌 Brauzerdan kelgan so'rovlarni qayta ishlaydi.
 
 ```python
 from django.http import HttpResponse
