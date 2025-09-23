@@ -208,9 +208,8 @@ python manage.py migrate
     - **MIDDLEWARE** – request/response jarayonlarini boshqaruvchi qavatlar
     - **STATIC_URL**, **MEDIA_URL** – statik va media fayllar yo‘llari
 
-`urls.py`
-- Loyiha darajasida marshrutlarni (URL'larni) boshqarish uchun ishlatiladi.
-- Masalan, agar myapp ilovasiga yo'naltirish kerak bo'lsa:
+### ✳️ `urls.py`
+📌 Loyiha darajasida URL'larni boshqarish uchun ishlatiladi.
 
 ```python
 from django.contrib import admin
@@ -218,7 +217,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('myapp/', include('myapp.urls')),  # myapp URL'larini bog'lash
+    path('myapp/', include('myapp.urls')),  # myapp URL'larini ulash
 ]
 ```
 
