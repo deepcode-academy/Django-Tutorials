@@ -221,17 +221,16 @@ urlpatterns = [
 ]
 ```
 
-`asgi.py` va `wsgi.py`
+### ✳️ `asgi.py` va `wsgi.py`
 - `wsgi.py` – WSGI server uchun loyiha konfiguratsiyasi (Apache, Gunicorn uchun kerak).
 - `asgi.py` – ASGI server uchun loyiha konfiguratsiyasi (async, WebSocket'lar uchun).
 
-## Django application tuzilmasi
+## ❇️ Django application tuzilmasi (myapp/)
 
-Har bir Django app o'z ichiga quyidagi fayllarni oladi:
+📌 Har bir app odatda quyidagi fayllardan iborat bo‘ladi:
 
-`models.py`
-- Ma'lumotlar bazasi jadvallarini yaratish uchun ishlatiladi.
-- Masalan, UserProfile modeli:
+### ✳️ `models.py`
+- Ma’lumotlar bazasi jadvallari shu yerda yoziladi.
 
 ```python
 from django.db import models
