@@ -193,9 +193,9 @@ python manage.py mycommand
 python manage.py migrate
 ```
 
-## ❇️ Loyiha papkasi (**myproject/**)
+## ❇️ Loyiha papkasi (myproject/)
 
-Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
+📌 Bu papka loyihaning asosiy konfiguratsiyalarini o'z ichiga oladi.
 
 `__init__.py` 
 - Bu fayl papkani Python paketi sifatida belgilaydi.
