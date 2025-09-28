@@ -304,8 +304,8 @@ class SimpleTest(TestCase):
 ### ✳️ `templates/`
 📌 HTML shablonlar joylashadigan papka.
 
-`static/`
-- CSS, JavaScript va media fayllar saqlanadigan joy.
+### ✳️ `static/`
+📌 CSS, JavaScript va media fayllar saqlanadigan joy.
 
 ## Django loyihasi qanday ishlaydi?
 
