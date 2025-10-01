@@ -1,1 +1,3 @@
 # 🌐 DJANGO WEB FRAMEWORK ASOSLARI
+
+# 12-Class-Based Views (CBV)
