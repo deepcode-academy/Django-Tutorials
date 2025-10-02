@@ -2,12 +2,8 @@
 
 # URL Dispatcher and Views
 
-- Django URL routing
-- Django views.py and returning responses
-- Practice: Creating routes and views for different pages
 
-> [!NOTE]
-> Django-da URL routing va views yaratish juda muhim qism hisoblanadi. Bu orqali foydalanuvchilar brauzer orqali so'rov yuboradi va Django ularni qanday qaytarishni hal qiladi
+📌 Django-da URL routing va views yaratish juda muhim qism hisoblanadi. Bu orqali foydalanuvchilar brauzer orqali so'rov yuboradi va Django ularni qanday qaytarishni hal qiladi
 
 
 ## URL Dispatcher
