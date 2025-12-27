@@ -1,5 +1,3 @@
-# 🌐 DJANGO WEB FRAMEWORK ASOSLARI
-
 # 🧩 DJANGO PROJECT STRUCTURE
 
 - **Django loyihasi MTV (Model-Template-View) arxitekturasiga asoslanadi:**
