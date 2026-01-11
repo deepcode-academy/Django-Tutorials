@@ -1,5 +1,3 @@
-# 🌐 Django Web Framework Asoslari
-
 # Templates (Working with HTML)
 
 - Django template engine
